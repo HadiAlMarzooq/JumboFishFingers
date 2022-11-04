@@ -1,0 +1,106 @@
+
+
+[class*="threeCols"] {
+  column-count: 1;
+  column-rule: 0.1rem solid #a4a400;
+}
+
+.titleH1 {
+  color:#a4a400;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 2rem;
+  border: 0.1rem solid #73ad21;
+  padding: 2%;
+  background-color: #f0f0f0;
+  margin-left: 20%;
+  margin-right: 20%;
+  position: relative;
+  overflow: auto;
+
+
+}
+.flex-container > div {
+  width: 100px;
+  margin: 10px;
+}
+
+.titleH2 {
+  color:#a4a400;
+  font-size: 80%;
+  text-align: center;
+  border-radius: 2rem;
+  border: 0.1rem solid #73ad21;
+  padding: 1%;
+  background-color: #f0f0f0;
+  margin-left: 35%;
+  margin-right: 35%;
+  position: relative;
+  overflow: auto;
+
+
+}
+body {
+  background-image: url("images/silverware.jpg");
+}
+.Margin{
+  margin-left: 5%;
+  margin-right:5%;
+  
+}
+.bodyImage {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:auto;
+  width: 70%;
+}
+
+.paragraphCentered {
+  text-align: center;
+}
+
+ul {
+  list-style-image: url("images/fish_icon_24.png");
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+  [class*="threeCols"] {
+    column-count: 2;
+  }
+  [class*="Margin"]{
+    margin-left: 15%;
+    margin-right:15%;
+  }
+  [class*="commentBox"]{
+    margin-left: 15%;
+    margin-right:15%;
+  }
+
+}
+@media only screen and (min-width: 768px) {
+  [class*="threeCols"] {
+    column-count: 3;
+  }
+  [class*="Margin"]{
+    margin-left: 30%;
+    margin-right:30%;
+  }
+  [class*="commentBox"]{
+    margin-left: 30%;
+    margin-right:30%;
+  }
+}
+
+
+.commentBox{
+  background-color:#ffffa8;
+  margin-left: 5%;
+  margin-right:5%;
+  
+}
+
